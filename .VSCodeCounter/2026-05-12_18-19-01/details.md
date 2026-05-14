@@ -1,0 +1,130 @@
+# Details
+
+Date : 2026-05-12 18:19:01
+
+Directory e:\\Projects Mine\\HR and Payroll Mine 3\\Backend
+
+Total : 115 files,  12387 codes, 96 comments, 1953 blanks, all 14436 lines
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [Backend/Backend.csproj](/Backend/Backend.csproj) | XML | 22 | 0 | 3 | 25 |
+| [Backend/Controllers/AttendanceController.cs](/Backend/Controllers/AttendanceController.cs) | C# | 42 | 0 | 15 | 57 |
+| [Backend/Controllers/AuditLogController.cs](/Backend/Controllers/AuditLogController.cs) | C# | 38 | 0 | 5 | 43 |
+| [Backend/Controllers/AuthController.cs](/Backend/Controllers/AuthController.cs) | C# | 27 | 1 | 4 | 32 |
+| [Backend/Controllers/DepartmentController.cs](/Backend/Controllers/DepartmentController.cs) | C# | 38 | 0 | 13 | 51 |
+| [Backend/Controllers/DesignationController.cs](/Backend/Controllers/DesignationController.cs) | C# | 44 | 0 | 20 | 64 |
+| [Backend/Controllers/EmployeeController.cs](/Backend/Controllers/EmployeeController.cs) | C# | 32 | 1 | 4 | 37 |
+| [Backend/Controllers/LeaveBalanceController.cs](/Backend/Controllers/LeaveBalanceController.cs) | C# | 41 | 7 | 9 | 57 |
+| [Backend/Controllers/LeaveRequestController.cs](/Backend/Controllers/LeaveRequestController.cs) | C# | 66 | 0 | 9 | 75 |
+| [Backend/Controllers/LeaveTypeController.cs](/Backend/Controllers/LeaveTypeController.cs) | C# | 50 | 0 | 8 | 58 |
+| [Backend/Controllers/OvertimeController.cs](/Backend/Controllers/OvertimeController.cs) | C# | 70 | 0 | 14 | 84 |
+| [Backend/Controllers/PayrollController.cs](/Backend/Controllers/PayrollController.cs) | C# | 60 | 0 | 13 | 73 |
+| [Backend/DTOs/AttendanceResponseDto.cs](/Backend/DTOs/AttendanceResponseDto.cs) | C# | 13 | 0 | 6 | 19 |
+| [Backend/DTOs/AuditLogResponseDto.cs](/Backend/DTOs/AuditLogResponseDto.cs) | C# | 14 | 0 | 4 | 18 |
+| [Backend/DTOs/CreateAttendanceDto.cs](/Backend/DTOs/CreateAttendanceDto.cs) | C# | 11 | 0 | 5 | 16 |
+| [Backend/DTOs/CreateAuditLogDto.cs](/Backend/DTOs/CreateAuditLogDto.cs) | C# | 12 | 0 | 6 | 18 |
+| [Backend/DTOs/CreateDepartmentDto.cs](/Backend/DTOs/CreateDepartmentDto.cs) | C# | 7 | 0 | 2 | 9 |
+| [Backend/DTOs/CreateDesignationDto.cs](/Backend/DTOs/CreateDesignationDto.cs) | C# | 8 | 0 | 5 | 13 |
+| [Backend/DTOs/CreateEmployeeDto.cs](/Backend/DTOs/CreateEmployeeDto.cs) | C# | 15 | 1 | 2 | 18 |
+| [Backend/DTOs/CreateLeaveBalanceDto.cs](/Backend/DTOs/CreateLeaveBalanceDto.cs) | C# | 9 | 0 | 2 | 11 |
+| [Backend/DTOs/CreateLeaveRequestDto.cs](/Backend/DTOs/CreateLeaveRequestDto.cs) | C# | 11 | 0 | 4 | 15 |
+| [Backend/DTOs/CreateLeaveTypeDto.cs](/Backend/DTOs/CreateLeaveTypeDto.cs) | C# | 7 | 0 | 2 | 9 |
+| [Backend/DTOs/CreateOvertimeDto.cs](/Backend/DTOs/CreateOvertimeDto.cs) | C# | 10 | 0 | 1 | 11 |
+| [Backend/DTOs/CreatePayrollDto.cs](/Backend/DTOs/CreatePayrollDto.cs) | C# | 13 | 0 | 7 | 20 |
+| [Backend/DTOs/CreateUserDto.cs](/Backend/DTOs/CreateUserDto.cs) | C# | 10 | 0 | 3 | 13 |
+| [Backend/DTOs/DepartmentResponseDto.cs](/Backend/DTOs/DepartmentResponseDto.cs) | C# | 8 | 0 | 2 | 10 |
+| [Backend/DTOs/DesignationResponseDto.cs](/Backend/DTOs/DesignationResponseDto.cs) | C# | 9 | 0 | 2 | 11 |
+| [Backend/DTOs/EmployeeResponseDto.cs](/Backend/DTOs/EmployeeResponseDto.cs) | C# | 15 | 0 | 2 | 17 |
+| [Backend/DTOs/LeaveBalanceReponseDto.cs](/Backend/DTOs/LeaveBalanceReponseDto.cs) | C# | 13 | 0 | 2 | 15 |
+| [Backend/DTOs/LeaveRequestResponseDto.cs](/Backend/DTOs/LeaveRequestResponseDto.cs) | C# | 13 | 0 | 4 | 17 |
+| [Backend/DTOs/LeaveTypeResponseDto.cs](/Backend/DTOs/LeaveTypeResponseDto.cs) | C# | 9 | 0 | 2 | 11 |
+| [Backend/DTOs/LoginDto.cs](/Backend/DTOs/LoginDto.cs) | C# | 5 | 1 | 0 | 6 |
+| [Backend/DTOs/OvertimeResponseDto.cs](/Backend/DTOs/OvertimeResponseDto.cs) | C# | 13 | 0 | 5 | 18 |
+| [Backend/DTOs/PayrollResponseDto.cs](/Backend/DTOs/PayrollResponseDto.cs) | C# | 15 | 0 | 10 | 25 |
+| [Backend/DTOs/PayslipResponseDto.cs](/Backend/DTOs/PayslipResponseDto.cs) | C# | 17 | 0 | 2 | 19 |
+| [Backend/DTOs/UpdateEmployeeDto.cs](/Backend/DTOs/UpdateEmployeeDto.cs) | C# | 15 | 1 | 2 | 18 |
+| [Backend/DTOs/UserResponseDto.cs](/Backend/DTOs/UserResponseDto.cs) | C# | 10 | 0 | 5 | 15 |
+| [Backend/Data/AppDbContext.cs](/Backend/Data/AppDbContext.cs) | C# | 76 | 0 | 29 | 105 |
+| [Backend/Interfaces/IAttendanceService.cs](/Backend/Interfaces/IAttendanceService.cs) | C# | 13 | 0 | 7 | 20 |
+| [Backend/Interfaces/IAuditLogService.cs](/Backend/Interfaces/IAuditLogService.cs) | C# | 11 | 0 | 7 | 18 |
+| [Backend/Interfaces/IAuthService.cs](/Backend/Interfaces/IAuthService.cs) | C# | 9 | 0 | 1 | 10 |
+| [Backend/Interfaces/ICurrentUserService.cs](/Backend/Interfaces/ICurrentUserService.cs) | C# | 7 | 0 | 2 | 9 |
+| [Backend/Interfaces/IDepartmentService.cs](/Backend/Interfaces/IDepartmentService.cs) | C# | 12 | 1 | 1 | 14 |
+| [Backend/Interfaces/IDesignationService.cs](/Backend/Interfaces/IDesignationService.cs) | C# | 13 | 1 | 4 | 18 |
+| [Backend/Interfaces/IEmployeeService.cs](/Backend/Interfaces/IEmployeeService.cs) | C# | 12 | 1 | 1 | 14 |
+| [Backend/Interfaces/ILeaveBalanceService.cs](/Backend/Interfaces/ILeaveBalanceService.cs) | C# | 12 | 0 | 10 | 22 |
+| [Backend/Interfaces/ILeaveRequestService.cs](/Backend/Interfaces/ILeaveRequestService.cs) | C# | 14 | 0 | 3 | 17 |
+| [Backend/Interfaces/ILeaveTypeService.cs](/Backend/Interfaces/ILeaveTypeService.cs) | C# | 12 | 0 | 1 | 13 |
+| [Backend/Interfaces/IOvertimeService.cs](/Backend/Interfaces/IOvertimeService.cs) | C# | 15 | 0 | 4 | 19 |
+| [Backend/Interfaces/IPayrollService.cs](/Backend/Interfaces/IPayrollService.cs) | C# | 13 | 0 | 4 | 17 |
+| [Backend/Migrations/20260512053720\_InitialCreate.Designer.cs](/Backend/Migrations/20260512053720_InitialCreate.Designer.cs) | C# | 138 | 2 | 49 | 189 |
+| [Backend/Migrations/20260512053720\_InitialCreate.cs](/Backend/Migrations/20260512053720_InitialCreate.cs) | C# | 115 | 3 | 13 | 131 |
+| [Backend/Migrations/20260512063241\_AddAttendance.Designer.cs](/Backend/Migrations/20260512063241_AddAttendance.Designer.cs) | C# | 170 | 2 | 62 | 234 |
+| [Backend/Migrations/20260512063241\_AddAttendance.cs](/Backend/Migrations/20260512063241_AddAttendance.cs) | C# | 44 | 3 | 5 | 52 |
+| [Backend/Migrations/20260512075940\_AddLeaveManagement.Designer.cs](/Backend/Migrations/20260512075940_AddLeaveManagement.Designer.cs) | C# | 229 | 2 | 86 | 317 |
+| [Backend/Migrations/20260512075940\_AddLeaveManagement.cs](/Backend/Migrations/20260512075940_AddLeaveManagement.cs) | C# | 70 | 3 | 8 | 81 |
+| [Backend/Migrations/20260512083812\_AddPayroll.Designer.cs](/Backend/Migrations/20260512083812_AddPayroll.Designer.cs) | C# | 267 | 2 | 102 | 371 |
+| [Backend/Migrations/20260512083812\_AddPayroll.cs](/Backend/Migrations/20260512083812_AddPayroll.cs) | C# | 47 | 3 | 5 | 55 |
+| [Backend/Migrations/20260512093047\_AddUserAuth.Designer.cs](/Backend/Migrations/20260512093047_AddUserAuth.Designer.cs) | C# | 281 | 2 | 107 | 390 |
+| [Backend/Migrations/20260512093047\_AddUserAuth.cs](/Backend/Migrations/20260512093047_AddUserAuth.cs) | C# | 50 | 3 | 10 | 63 |
+| [Backend/Migrations/20260512094755\_MadeUserEmployeeIdNullable.Designer.cs](/Backend/Migrations/20260512094755_MadeUserEmployeeIdNullable.Designer.cs) | C# | 280 | 2 | 107 | 389 |
+| [Backend/Migrations/20260512094755\_MadeUserEmployeeIdNullable.cs](/Backend/Migrations/20260512094755_MadeUserEmployeeIdNullable.cs) | C# | 30 | 3 | 4 | 37 |
+| [Backend/Migrations/20260512103404\_AddleaveBalance.Designer.cs](/Backend/Migrations/20260512103404_AddleaveBalance.Designer.cs) | C# | 318 | 2 | 123 | 443 |
+| [Backend/Migrations/20260512103404\_AddleaveBalance.cs](/Backend/Migrations/20260512103404_AddleaveBalance.cs) | C# | 53 | 3 | 6 | 62 |
+| [Backend/Migrations/20260512112246\_AddOvertime.Designer.cs](/Backend/Migrations/20260512112246_AddOvertime.Designer.cs) | C# | 352 | 2 | 137 | 491 |
+| [Backend/Migrations/20260512112246\_AddOvertime.cs](/Backend/Migrations/20260512112246_AddOvertime.cs) | C# | 45 | 3 | 5 | 53 |
+| [Backend/Migrations/20260512121653\_AddAuditLog.Designer.cs](/Backend/Migrations/20260512121653_AddAuditLog.Designer.cs) | C# | 377 | 2 | 148 | 527 |
+| [Backend/Migrations/20260512121653\_AddAuditLog.cs](/Backend/Migrations/20260512121653_AddAuditLog.cs) | C# | 35 | 3 | 4 | 42 |
+| [Backend/Migrations/20260512122049\_AddAuditLogUpdate.Designer.cs](/Backend/Migrations/20260512122049_AddAuditLogUpdate.Designer.cs) | C# | 377 | 2 | 148 | 527 |
+| [Backend/Migrations/20260512122049\_AddAuditLogUpdate.cs](/Backend/Migrations/20260512122049_AddAuditLogUpdate.cs) | C# | 14 | 3 | 6 | 23 |
+| [Backend/Migrations/AppDbContextModelSnapshot.cs](/Backend/Migrations/AppDbContextModelSnapshot.cs) | C# | 375 | 1 | 148 | 524 |
+| [Backend/Models/Attendance.cs](/Backend/Models/Attendance.cs) | C# | 14 | 0 | 7 | 21 |
+| [Backend/Models/AuditLog.cs](/Backend/Models/AuditLog.cs) | C# | 14 | 1 | 2 | 17 |
+| [Backend/Models/Department.cs](/Backend/Models/Department.cs) | C# | 10 | 0 | 4 | 14 |
+| [Backend/Models/Designation.cs](/Backend/Models/Designation.cs) | C# | 10 | 0 | 3 | 13 |
+| [Backend/Models/Employee.cs](/Backend/Models/Employee.cs) | C# | 21 | 0 | 8 | 29 |
+| [Backend/Models/LeaveBalance.cs](/Backend/Models/LeaveBalance.cs) | C# | 15 | 0 | 1 | 16 |
+| [Backend/Models/LeaveRequest.cs](/Backend/Models/LeaveRequest.cs) | C# | 16 | 1 | 2 | 19 |
+| [Backend/Models/LeaveType.cs](/Backend/Models/LeaveType.cs) | C# | 10 | 1 | 2 | 13 |
+| [Backend/Models/Overtime.cs](/Backend/Models/Overtime.cs) | C# | 15 | 0 | 2 | 17 |
+| [Backend/Models/Payroll.cs](/Backend/Models/Payroll.cs) | C# | 17 | 0 | 2 | 19 |
+| [Backend/Models/User.cs](/Backend/Models/User.cs) | C# | 13 | 0 | 4 | 17 |
+| [Backend/Program.cs](/Backend/Program.cs) | C# | 87 | 3 | 24 | 114 |
+| [Backend/Properties/launchSettings.json](/Backend/Properties/launchSettings.json) | JSON | 41 | 0 | 1 | 42 |
+| [Backend/Services/AttendanceService.cs](/Backend/Services/AttendanceService.cs) | C# | 148 | 0 | 33 | 181 |
+| [Backend/Services/AuditLogService.cs](/Backend/Services/AuditLogService.cs) | C# | 75 | 0 | 13 | 88 |
+| [Backend/Services/AuthService.cs](/Backend/Services/AuthService.cs) | C# | 68 | 1 | 12 | 81 |
+| [Backend/Services/CurrentUserService.cs](/Backend/Services/CurrentUserService.cs) | C# | 18 | 0 | 5 | 23 |
+| [Backend/Services/DepartmentService.cs](/Backend/Services/DepartmentService.cs) | C# | 85 | 0 | 36 | 121 |
+| [Backend/Services/DesignationService.cs](/Backend/Services/DesignationService.cs) | C# | 109 | 1 | 39 | 149 |
+| [Backend/Services/EmployeeService.cs](/Backend/Services/EmployeeService.cs) | C# | 128 | 1 | 37 | 166 |
+| [Backend/Services/LeaveBalanceService.cs](/Backend/Services/LeaveBalanceService.cs) | C# | 110 | 0 | 18 | 128 |
+| [Backend/Services/LeaveRequestService.cs](/Backend/Services/LeaveRequestService.cs) | C# | 160 | 0 | 39 | 199 |
+| [Backend/Services/LeaveTypeService.cs](/Backend/Services/LeaveTypeService.cs) | C# | 76 | 0 | 15 | 91 |
+| [Backend/Services/OvertimeService.cs](/Backend/Services/OvertimeService.cs) | C# | 169 | 0 | 29 | 198 |
+| [Backend/Services/PayrollService.cs](/Backend/Services/PayrollService.cs) | C# | 149 | 1 | 37 | 187 |
+| [Backend/appsettings.Development.json](/Backend/appsettings.Development.json) | JSON | 8 | 0 | 1 | 9 |
+| [Backend/appsettings.json](/Backend/appsettings.json) | JSON | 17 | 0 | 1 | 18 |
+| [Backend/bin/Debug/net8.0/Backend.deps.json](/Backend/bin/Debug/net8.0/Backend.deps.json) | JSON | 1,475 | 0 | 0 | 1,475 |
+| [Backend/bin/Debug/net8.0/Backend.runtimeconfig.json](/Backend/bin/Debug/net8.0/Backend.runtimeconfig.json) | JSON | 20 | 0 | 0 | 20 |
+| [Backend/bin/Debug/net8.0/appsettings.Development.json](/Backend/bin/Debug/net8.0/appsettings.Development.json) | JSON | 8 | 0 | 1 | 9 |
+| [Backend/bin/Debug/net8.0/appsettings.json](/Backend/bin/Debug/net8.0/appsettings.json) | JSON | 17 | 0 | 1 | 18 |
+| [Backend/obj/Backend.csproj.nuget.dgspec.json](/Backend/obj/Backend.csproj.nuget.dgspec.json) | JSON | 103 | 0 | 0 | 103 |
+| [Backend/obj/Backend.csproj.nuget.g.props](/Backend/obj/Backend.csproj.nuget.g.props) | XML | 26 | 0 | 0 | 26 |
+| [Backend/obj/Backend.csproj.nuget.g.targets](/Backend/obj/Backend.csproj.nuget.g.targets) | XML | 9 | 0 | 0 | 9 |
+| [Backend/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs](/Backend/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs) | C# | 3 | 1 | 1 | 5 |
+| [Backend/obj/Debug/net8.0/Backend.AssemblyInfo.cs](/Backend/obj/Debug/net8.0/Backend.AssemblyInfo.cs) | C# | 9 | 9 | 5 | 23 |
+| [Backend/obj/Debug/net8.0/Backend.GeneratedMSBuildEditorConfig.editorconfig](/Backend/obj/Debug/net8.0/Backend.GeneratedMSBuildEditorConfig.editorconfig) | Properties | 19 | 0 | 1 | 20 |
+| [Backend/obj/Debug/net8.0/Backend.GlobalUsings.g.cs](/Backend/obj/Debug/net8.0/Backend.GlobalUsings.g.cs) | C# | 16 | 1 | 1 | 18 |
+| [Backend/obj/Debug/net8.0/Backend.MvcApplicationPartsAssemblyInfo.cs](/Backend/obj/Debug/net8.0/Backend.MvcApplicationPartsAssemblyInfo.cs) | C# | 4 | 9 | 5 | 18 |
+| [Backend/obj/Debug/net8.0/staticwebassets.build.json](/Backend/obj/Debug/net8.0/staticwebassets.build.json) | JSON | 11 | 0 | 0 | 11 |
+| [Backend/obj/Debug/net8.0/staticwebassets/msbuild.build.Backend.props](/Backend/obj/Debug/net8.0/staticwebassets/msbuild.build.Backend.props) | XML | 3 | 0 | 0 | 3 |
+| [Backend/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Backend.props](/Backend/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Backend.props) | XML | 3 | 0 | 0 | 3 |
+| [Backend/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Backend.props](/Backend/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Backend.props) | XML | 3 | 0 | 0 | 3 |
+| [Backend/obj/project.assets.json](/Backend/obj/project.assets.json) | JSON | 4,357 | 0 | 0 | 4,357 |
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)

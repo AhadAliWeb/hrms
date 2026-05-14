@@ -1,0 +1,160 @@
+Date : 2026-05-12 18:19:01
+Directory : e:\Projects Mine\HR and Payroll Mine 3\Backend
+Total : 115 files,  12387 codes, 96 comments, 1953 blanks, all 14436 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| C#         |         98 |      6,245 |         96 |      1,944 |      8,285 |
+| JSON       |         10 |      6,057 |          0 |          5 |      6,062 |
+| XML        |          6 |         66 |          0 |          3 |         69 |
+| Properties |          1 |         19 |          0 |          1 |         20 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                         |        115 |     12,387 |         96 |      1,953 |     14,436 |
+| . (Files)                                                                                                                 |          4 |        134 |          3 |         29 |        166 |
+| Controllers                                                                                                               |         11 |        508 |          9 |        114 |        631 |
+| DTOs                                                                                                                      |         25 |        282 |          3 |         87 |        372 |
+| Data                                                                                                                      |          1 |         76 |          0 |         29 |        105 |
+| Interfaces                                                                                                                |         12 |        143 |          3 |         45 |        191 |
+| Migrations                                                                                                                |         21 |      3,667 |         51 |      1,283 |      5,001 |
+| Models                                                                                                                    |         11 |        155 |          3 |         37 |        195 |
+| Properties                                                                                                                |          1 |         41 |          0 |          1 |         42 |
+| Services                                                                                                                  |         12 |      1,295 |          4 |        313 |      1,612 |
+| bin                                                                                                                       |          4 |      1,520 |          0 |          2 |      1,522 |
+| bin\Debug                                                                                                                 |          4 |      1,520 |          0 |          2 |      1,522 |
+| bin\Debug\net8.0                                                                                                          |          4 |      1,520 |          0 |          2 |      1,522 |
+| obj                                                                                                                       |         13 |      4,566 |         20 |         13 |      4,599 |
+| obj (Files)                                                                                                               |          4 |      4,495 |          0 |          0 |      4,495 |
+| obj\Debug                                                                                                                 |          9 |         71 |         20 |         13 |        104 |
+| obj\Debug\net8.0                                                                                                          |          9 |         71 |         20 |         13 |        104 |
+| obj\Debug\net8.0 (Files)                                                                                                  |          6 |         62 |         20 |         13 |         95 |
+| obj\Debug\net8.0\staticwebassets                                                                                          |          3 |          9 |          0 |          0 |          9 |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                  | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Backend.csproj                                                             | XML        |         22 |          0 |          3 |         25 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\AttendanceController.cs                                        | C#         |         42 |          0 |         15 |         57 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\AuditLogController.cs                                          | C#         |         38 |          0 |          5 |         43 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\AuthController.cs                                              | C#         |         27 |          1 |          4 |         32 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\DepartmentController.cs                                        | C#         |         38 |          0 |         13 |         51 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\DesignationController.cs                                       | C#         |         44 |          0 |         20 |         64 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\EmployeeController.cs                                          | C#         |         32 |          1 |          4 |         37 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\LeaveBalanceController.cs                                      | C#         |         41 |          7 |          9 |         57 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\LeaveRequestController.cs                                      | C#         |         66 |          0 |          9 |         75 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\LeaveTypeController.cs                                         | C#         |         50 |          0 |          8 |         58 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\OvertimeController.cs                                          | C#         |         70 |          0 |         14 |         84 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Controllers\PayrollController.cs                                           | C#         |         60 |          0 |         13 |         73 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\AttendanceResponseDto.cs                                              | C#         |         13 |          0 |          6 |         19 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\AuditLogResponseDto.cs                                                | C#         |         14 |          0 |          4 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreateAttendanceDto.cs                                                | C#         |         11 |          0 |          5 |         16 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreateAuditLogDto.cs                                                  | C#         |         12 |          0 |          6 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreateDepartmentDto.cs                                                | C#         |          7 |          0 |          2 |          9 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreateDesignationDto.cs                                               | C#         |          8 |          0 |          5 |         13 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreateEmployeeDto.cs                                                  | C#         |         15 |          1 |          2 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreateLeaveBalanceDto.cs                                              | C#         |          9 |          0 |          2 |         11 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreateLeaveRequestDto.cs                                              | C#         |         11 |          0 |          4 |         15 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreateLeaveTypeDto.cs                                                 | C#         |          7 |          0 |          2 |          9 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreateOvertimeDto.cs                                                  | C#         |         10 |          0 |          1 |         11 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreatePayrollDto.cs                                                   | C#         |         13 |          0 |          7 |         20 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\CreateUserDto.cs                                                      | C#         |         10 |          0 |          3 |         13 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\DepartmentResponseDto.cs                                              | C#         |          8 |          0 |          2 |         10 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\DesignationResponseDto.cs                                             | C#         |          9 |          0 |          2 |         11 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\EmployeeResponseDto.cs                                                | C#         |         15 |          0 |          2 |         17 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\LeaveBalanceReponseDto.cs                                             | C#         |         13 |          0 |          2 |         15 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\LeaveRequestResponseDto.cs                                            | C#         |         13 |          0 |          4 |         17 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\LeaveTypeResponseDto.cs                                               | C#         |          9 |          0 |          2 |         11 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\LoginDto.cs                                                           | C#         |          5 |          1 |          0 |          6 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\OvertimeResponseDto.cs                                                | C#         |         13 |          0 |          5 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\PayrollResponseDto.cs                                                 | C#         |         15 |          0 |         10 |         25 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\PayslipResponseDto.cs                                                 | C#         |         17 |          0 |          2 |         19 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\UpdateEmployeeDto.cs                                                  | C#         |         15 |          1 |          2 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\DTOs\UserResponseDto.cs                                                    | C#         |         10 |          0 |          5 |         15 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Data\AppDbContext.cs                                                       | C#         |         76 |          0 |         29 |        105 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\IAttendanceService.cs                                           | C#         |         13 |          0 |          7 |         20 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\IAuditLogService.cs                                             | C#         |         11 |          0 |          7 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\IAuthService.cs                                                 | C#         |          9 |          0 |          1 |         10 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\ICurrentUserService.cs                                          | C#         |          7 |          0 |          2 |          9 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\IDepartmentService.cs                                           | C#         |         12 |          1 |          1 |         14 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\IDesignationService.cs                                          | C#         |         13 |          1 |          4 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\IEmployeeService.cs                                             | C#         |         12 |          1 |          1 |         14 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\ILeaveBalanceService.cs                                         | C#         |         12 |          0 |         10 |         22 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\ILeaveRequestService.cs                                         | C#         |         14 |          0 |          3 |         17 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\ILeaveTypeService.cs                                            | C#         |         12 |          0 |          1 |         13 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\IOvertimeService.cs                                             | C#         |         15 |          0 |          4 |         19 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Interfaces\IPayrollService.cs                                              | C#         |         13 |          0 |          4 |         17 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512053720_InitialCreate.Designer.cs                        | C#         |        138 |          2 |         49 |        189 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512053720_InitialCreate.cs                                 | C#         |        115 |          3 |         13 |        131 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512063241_AddAttendance.Designer.cs                        | C#         |        170 |          2 |         62 |        234 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512063241_AddAttendance.cs                                 | C#         |         44 |          3 |          5 |         52 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512075940_AddLeaveManagement.Designer.cs                   | C#         |        229 |          2 |         86 |        317 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512075940_AddLeaveManagement.cs                            | C#         |         70 |          3 |          8 |         81 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512083812_AddPayroll.Designer.cs                           | C#         |        267 |          2 |        102 |        371 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512083812_AddPayroll.cs                                    | C#         |         47 |          3 |          5 |         55 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512093047_AddUserAuth.Designer.cs                          | C#         |        281 |          2 |        107 |        390 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512093047_AddUserAuth.cs                                   | C#         |         50 |          3 |         10 |         63 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512094755_MadeUserEmployeeIdNullable.Designer.cs           | C#         |        280 |          2 |        107 |        389 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512094755_MadeUserEmployeeIdNullable.cs                    | C#         |         30 |          3 |          4 |         37 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512103404_AddleaveBalance.Designer.cs                      | C#         |        318 |          2 |        123 |        443 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512103404_AddleaveBalance.cs                               | C#         |         53 |          3 |          6 |         62 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512112246_AddOvertime.Designer.cs                          | C#         |        352 |          2 |        137 |        491 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512112246_AddOvertime.cs                                   | C#         |         45 |          3 |          5 |         53 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512121653_AddAuditLog.Designer.cs                          | C#         |        377 |          2 |        148 |        527 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512121653_AddAuditLog.cs                                   | C#         |         35 |          3 |          4 |         42 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512122049_AddAuditLogUpdate.Designer.cs                    | C#         |        377 |          2 |        148 |        527 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\20260512122049_AddAuditLogUpdate.cs                             | C#         |         14 |          3 |          6 |         23 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Migrations\AppDbContextModelSnapshot.cs                                    | C#         |        375 |          1 |        148 |        524 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\Attendance.cs                                                       | C#         |         14 |          0 |          7 |         21 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\AuditLog.cs                                                         | C#         |         14 |          1 |          2 |         17 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\Department.cs                                                       | C#         |         10 |          0 |          4 |         14 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\Designation.cs                                                      | C#         |         10 |          0 |          3 |         13 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\Employee.cs                                                         | C#         |         21 |          0 |          8 |         29 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\LeaveBalance.cs                                                     | C#         |         15 |          0 |          1 |         16 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\LeaveRequest.cs                                                     | C#         |         16 |          1 |          2 |         19 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\LeaveType.cs                                                        | C#         |         10 |          1 |          2 |         13 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\Overtime.cs                                                         | C#         |         15 |          0 |          2 |         17 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\Payroll.cs                                                          | C#         |         17 |          0 |          2 |         19 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Models\User.cs                                                             | C#         |         13 |          0 |          4 |         17 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Program.cs                                                                 | C#         |         87 |          3 |         24 |        114 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Properties\launchSettings.json                                             | JSON       |         41 |          0 |          1 |         42 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\AttendanceService.cs                                              | C#         |        148 |          0 |         33 |        181 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\AuditLogService.cs                                                | C#         |         75 |          0 |         13 |         88 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\AuthService.cs                                                    | C#         |         68 |          1 |         12 |         81 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\CurrentUserService.cs                                             | C#         |         18 |          0 |          5 |         23 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\DepartmentService.cs                                              | C#         |         85 |          0 |         36 |        121 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\DesignationService.cs                                             | C#         |        109 |          1 |         39 |        149 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\EmployeeService.cs                                                | C#         |        128 |          1 |         37 |        166 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\LeaveBalanceService.cs                                            | C#         |        110 |          0 |         18 |        128 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\LeaveRequestService.cs                                            | C#         |        160 |          0 |         39 |        199 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\LeaveTypeService.cs                                               | C#         |         76 |          0 |         15 |         91 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\OvertimeService.cs                                                | C#         |        169 |          0 |         29 |        198 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\Services\PayrollService.cs                                                 | C#         |        149 |          1 |         37 |        187 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\appsettings.Development.json                                               | JSON       |          8 |          0 |          1 |          9 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\appsettings.json                                                           | JSON       |         17 |          0 |          1 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\bin\Debug\net8.0\Backend.deps.json                                         | JSON       |      1,475 |          0 |          0 |      1,475 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\bin\Debug\net8.0\Backend.runtimeconfig.json                                | JSON       |         20 |          0 |          0 |         20 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\bin\Debug\net8.0\appsettings.Development.json                              | JSON       |          8 |          0 |          1 |          9 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\bin\Debug\net8.0\appsettings.json                                          | JSON       |         17 |          0 |          1 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Backend.csproj.nuget.dgspec.json                                       | JSON       |        103 |          0 |          0 |        103 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Backend.csproj.nuget.g.props                                           | XML        |         26 |          0 |          0 |         26 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Backend.csproj.nuget.g.targets                                         | XML        |          9 |          0 |          0 |          9 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs            | C#         |          3 |          1 |          1 |          5 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Debug\net8.0\Backend.AssemblyInfo.cs                                   | C#         |          9 |          9 |          5 |         23 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Debug\net8.0\Backend.GeneratedMSBuildEditorConfig.editorconfig         | Properties |         19 |          0 |          1 |         20 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Debug\net8.0\Backend.GlobalUsings.g.cs                                 | C#         |         16 |          1 |          1 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Debug\net8.0\Backend.MvcApplicationPartsAssemblyInfo.cs                | C#         |          4 |          9 |          5 |         18 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Debug\net8.0\staticwebassets.build.json                                | JSON       |         11 |          0 |          0 |         11 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Debug\net8.0\staticwebassets\msbuild.build.Backend.props               | XML        |          3 |          0 |          0 |          3 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props | XML        |          3 |          0 |          0 |          3 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Backend.props     | XML        |          3 |          0 |          0 |          3 |
+| e:\Projects Mine\HR and Payroll Mine 3\Backend\obj\project.assets.json                                                    | JSON       |      4,357 |          0 |          0 |      4,357 |
+| Total                                                                                                                     |            |     12,387 |         96 |      1,953 |     14,436 |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
