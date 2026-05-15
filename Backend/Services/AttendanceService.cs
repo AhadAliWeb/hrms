@@ -27,6 +27,7 @@ namespace Backend.Services
                 a => new AttendanceResponseDto
                 {
                     Id = a.Id,
+                    EmployeeId = a.EmployeeId,
                     EmployeeName = $"{a.Employee.FirstName} {a.Employee.LastName}",
                     Date = a.Date,
                     CheckIn = a.CheckIn,
@@ -44,6 +45,7 @@ namespace Backend.Services
                 .Where(a => a.EmployeeId == employeeId)
                 .Select(a => new AttendanceResponseDto {
                     Id = a.Id,
+                    EmployeeId = a.EmployeeId,
                     EmployeeName = $"{a.Employee.FirstName} {a.Employee.LastName}",
                     Date = a.Date,
                     CheckIn = a.CheckIn,
@@ -65,6 +67,7 @@ namespace Backend.Services
             return new AttendanceResponseDto
             {
                 Id = att.Id,
+                EmployeeId = att.EmployeeId,
                 EmployeeName = $"{att.Employee.FirstName} {att.Employee.LastName}",
                 Date = att.Date,
                 CheckIn = att.CheckIn,
@@ -105,6 +108,7 @@ namespace Backend.Services
             return new AttendanceResponseDto
             {
                 Id = att.Id,
+                EmployeeId = att.EmployeeId,
                 EmployeeName = $"{att.Employee.FirstName} {att.Employee.LastName}",
                 Date = att.Date,
                 CheckIn = att.CheckIn,
@@ -145,6 +149,7 @@ namespace Backend.Services
             return new AttendanceResponseDto
             {
                 Id = att.Id,
+                EmployeeId = att.EmployeeId,
                 EmployeeName = $"{att.Employee.FirstName} {att.Employee.LastName}",
                 Date = att.Date,
                 CheckIn = att.CheckIn,

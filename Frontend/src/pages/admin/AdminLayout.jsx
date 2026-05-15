@@ -3,7 +3,8 @@ import Sidebar from '../../components/shared/Sidebar'
 import Navbar from '../../components/shared/Navbar'
 import {
   LayoutDashboard, Users, Building2, Briefcase, Calendar,
-  List, FileText, BarChart2, Clock, DollarSign, Shield
+  List, FileText, BarChart2, Clock, DollarSign, Shield,
+  UserPlus
 } from 'lucide-react'
 
 const links = [
@@ -18,6 +19,8 @@ const links = [
   { to: '/admin/overtime',    label: 'Overtime',       icon: Clock },
   { to: '/admin/payroll',     label: 'Payroll',        icon: DollarSign },
   { to: '/admin/audit-logs',  label: 'Audit Logs',     icon: Shield },
+  { to: '/admin/add-user',  label: 'Add User',     icon: UserPlus},
+  
 ]
 
 export default function AdminLayout() {

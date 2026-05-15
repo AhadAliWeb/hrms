@@ -36,6 +36,7 @@ import HRLeaveRequests from './pages/hr/LeaveRequests'
 import HRLeaveBalances from './pages/hr/LeaveBalances'
 import HROverttime from './pages/hr/Overtime'
 import HRPayroll from './pages/hr/Payroll'
+import AddUser from './pages/admin/AddUser'
 
 export default function App() {
   return (
@@ -58,6 +59,7 @@ export default function App() {
           <Route path="overtime" element={<Overtime />} />
           <Route path="payroll" element={<Payroll />} />
           <Route path="audit-logs" element={<AuditLogs />} />
+          <Route path="add-user" element={<AddUser />} />
         </Route>
 
         {/* HR Routes */}

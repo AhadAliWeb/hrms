@@ -20,6 +20,7 @@ export default function Attendance() {
   const [saving, setSaving] = useState(false)
   const [filterEmp, setFilterEmp] = useState('')
   const [filterDate, setFilterDate] = useState('')
+  
 
   const load = async () => {
     setLoading(true)
@@ -30,6 +31,8 @@ export default function Attendance() {
     finally { setLoading(false) }
   }
 
+  
+
   useEffect(() => { load() }, [])
 
   const openAdd = () => { setForm(EMPTY); setSelected(null); setModal('form') }
@@ -38,7 +41,8 @@ export default function Attendance() {
   const handleSave = async () => {
     setSaving(true)
     try {
-      const payload = { ...form, employeeId: Number(form.employeeId) }
+      // const payload = { ...form, employeeId: Number(form.employeeId), checkIn: `${form.checkIn}:00` || null, checkOut: `${form.checkOut}:00` || null }
+      const payload = { ...form, employeeId: Number(form.employeeId), checkIn: form.checkIn || null, checkOut: form.checkOut || null }
       if (selected) await updateAttendance(selected.id, payload)
       else await createAttendance(payload)
       toast.success('Attendance saved')
@@ -73,6 +77,8 @@ export default function Attendance() {
       </div>
     )},
   ]
+
+  
 
   return (
     <div className="space-y-4">
@@ -123,7 +129,7 @@ export default function Attendance() {
                   {['Present', 'Absent', 'Late'].map(s => <option key={s}>{s}</option>)}
                 </select>
               ) : (
-                <input type={field.type} value={form[field.key]} onChange={e => setForm({...form, [field.key]: e.target.value})}
+                <input type={field.type} value={form[field.key]} step={field.type === 'time' ? '1' : undefined} onChange={e => setForm({...form, [field.key]: e.target.value})}
                   className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500/30 focus:border-indigo-500 transition-all" />
               )}
             </div>

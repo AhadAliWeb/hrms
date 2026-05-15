@@ -21,7 +21,7 @@ function fmtTime(str) {
 }
 
 export default function MyAttendance() {
-  const { userId } = useSelector((s) => s.auth)
+  const { userId, employeeId } = useSelector((s) => s.auth)
   const [rows, setRows] = useState([])
   const [loading, setLoading] = useState(true)
 
@@ -32,7 +32,7 @@ export default function MyAttendance() {
   useEffect(() => {
     if (!userId) return
     setLoading(true)
-    getAttendanceByEmployee(userId)
+    getAttendanceByEmployee(employeeId)
       .then((r) => setRows(r.data || []))
       .catch(console.error)
       .finally(() => setLoading(false))
