@@ -94,6 +94,10 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+// For Static Files (e.g., For React)
+app.UseDefaultFiles();   // serves index.html automatically
+app.UseStaticFiles();    // enables wwwroot
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -110,6 +114,9 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// IMPORTANT: fallback for React Router (SPA routing)
+app.MapFallbackToFile("index.html");
 
 // Auto-apply migrations on startup
 using (var scope = app.Services.CreateScope())

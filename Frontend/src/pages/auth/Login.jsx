@@ -98,6 +98,23 @@ export default function Login() {
             </button>
           </form>
         </div>
+
+        {/* Demo Credentials */}
+        <div className="mt-4 bg-white/70 backdrop-blur-sm rounded-2xl border border-gray-100 p-4 space-y-2.5">
+          <p className="text-xs font-600 text-gray-400 uppercase tracking-wider mb-3">Demo Credentials</p>
+          {[
+            { role: 'Admin', username: 'admin', password: '123456', color: 'bg-violet-100 text-violet-700' },
+            { role: 'HR Manager', username: 'hrmanager', password: 'hr1234', color: 'bg-blue-100 text-blue-700' },
+            { role: 'Employee', username: 'sara', password: 'sara1234', color: 'bg-emerald-100 text-emerald-700' },
+          ].map(({ role, username, password, color }) => (
+            <div key={role} className="flex items-center gap-3">
+              <span className={`text-[10px] font-700 px-2 py-0.5 rounded-md shrink-0 ${color}`}>{role}</span>
+              <span className="text-xs text-gray-500 font-mono">{username}</span>
+              <span className="text-gray-300 text-xs">/</span>
+              <span className="text-xs text-gray-500 font-mono">{password}</span>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )
